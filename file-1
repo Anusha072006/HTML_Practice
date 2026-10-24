@@ -1,0 +1,53 @@
+# CREATE BUTTONS FOR USING HTML,CSS 
+# SUPPOSE I CREATE THE SUBSCRIPTION BUTTON,JOIN BUTTON,TWEEK BUTTON.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="Tweet-button">Tweet</button>
+</body>
+</html>
+
+
+# STYLE.CSS
+.subscribe-button{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width:150px;
+    border:none;
+    border-radius: 2px;
+    margin-right: 9px;
+    cursor:pointer;
+
+}
+.join-button{
+    background-color: white;
+    color:rgb(135, 206, 235);
+    height: 30px;
+    width: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(135, 215, 235);
+    margin-left: 8px;
+    cursor:pointer;
+}
+.Tweet-button{
+    background-color: rgb(20, 164, 222);
+    color:white;
+    height: 35px;
+    width:60px;
+    border: none;
+    border-radius: 20px;
+    margin-left:8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor:pointer;
+}
