@@ -1,0 +1,25 @@
+/* Element selector*/
+h1{
+    color: crimson;
+}
+
+/* Id selectors*/
+#h11{
+    background-color: black;
+}
+#h21{
+    background-color: aqua;
+}
+
+/* Class Selectors*/
+.Anusha{
+    text-align: center;
+}
+/* Unviersal */
+*{
+    background: burlywood;
+}
+/* Grouping selector*/
+#h41,.pc1,section{
+    font-weight: 900;
+}
