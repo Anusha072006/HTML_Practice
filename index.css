@@ -1,25 +1,15 @@
-/* Element selector*/
-h1{
-    color: crimson;
+p:first-child{
+    color: blue;
 }
-
-/* Id selectors*/
-#h11{
-    background-color: black;
+p:nth-child(4){
+    color: green;
 }
-#h21{
-    background-color: aqua;
+span:first-of-type{
+    background: crimson;
 }
-
-/* Class Selectors*/
-.Anusha{
-    text-align: center;
+span:last-of-type{
+    background: yellowgreen;
 }
-/* Unviersal */
-*{
-    background: burlywood;
-}
-/* Grouping selector*/
-#h41,.pc1,section{
-    font-weight: 900;
+span:nth-of-type(2){
+    background: pink;
 }
