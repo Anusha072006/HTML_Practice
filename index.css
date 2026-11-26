@@ -1,15 +1,15 @@
-p:first-child{
-    color: blue;
+p::first-line{
+    color:crimson;
 }
-p:nth-child(4){
-    color: green;
+p::first-letter{
+    font-size: 100px;
 }
-span:first-of-type{
-    background: crimson;
+p::after{
+    content:"😊";
 }
-span:last-of-type{
-    background: yellowgreen;
+p::before{
+    content:"😍";
 }
-span:nth-of-type(2){
-    background: pink;
+li::marker{
+    content:"⭐";
 }
