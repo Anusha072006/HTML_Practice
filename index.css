@@ -1,15 +1,16 @@
-p::first-line{
-    color:crimson;
+a:active{
+    color: black;
 }
-p::first-letter{
-    font-size: 100px;
+
+a:visited{
+    color:red;
 }
-p::after{
-    content:"😊";
+a:link{
+    color:teal;
 }
-p::before{
-    content:"😍";
+h1:hover{
+    color:violet;
 }
-li::marker{
-    content:"⭐";
+input:focus{
+    caret-color: black;
 }
